@@ -1,0 +1,10 @@
+#!/bin/sh
+
+mvn archetype:generate \
+ -DarchetypeGroupId=com.sun.jersey.archetypes \
+ -DarchetypeArtifactId=jersey-quickstart-webapp \
+ -DarchetypeVersion=1.19.1 \
+ -DgroupId=com.swaggy.baggy  -DartifactId=swaggadocius2 \
+ -Dpackage=com.swaggy.baggy $*
+
+
